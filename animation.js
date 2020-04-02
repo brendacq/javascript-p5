@@ -4,16 +4,23 @@ var circle = {
     circleHeight
 }
 
-var color = {
+var bgColor = {
     r: 255,
     g: 60,
     b: 125
 }
+
+var circleColor = {
+    r:100,
+    g: 200,
+    b: 100
+}
+
 function setup(){
     createCanvas(600, 400);
     // Having the background() function in the setup block, it'll be drawn once.
     // Different than putting this function in the draw block, which would paint the background over and over again.
-    background(color.r, color.g, color.b);
+    background(bgColor.r, bgColor.g, bgColor.b);
 }
 
 function draw(){
@@ -22,7 +29,7 @@ function draw(){
     circle.circleWidth = mouseX - 30;
     circle.circleHeight = mouseY - 50;
     // The position of the ellipse will be the same coordinates of the mouse, both on the x-axis and the y-axis.
-    fill(100, 200, 100);
+    fill(circleColor.r, circleColor.g, circleColor.b);
     ellipse(mouseX, mouseY, circleWidth, circleHeight);
 }
 
