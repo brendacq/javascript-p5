@@ -1,7 +1,7 @@
 // Creating an object. An object is very useful for us to assemble the attributes of an element at one place.
 var circle = {
-    circleWidth,
-    circleHeight
+    Width: 0,
+    Height: 0
 }
 
 var bgColor = {
@@ -11,9 +11,9 @@ var bgColor = {
 }
 
 var circleColor = {
-    r:100,
+    r: 0,
     g: 200,
-    b: 100
+    b: 0
 }
 
 function setup(){
@@ -26,11 +26,15 @@ function setup(){
 function draw(){
     // Initializing my variables with the value of the mouseX or mouseY coordinates minus some number.
     // At each time the function draw is executed, the circle width and height will vary according to the mouse coordinates.
-    circle.circleWidth = mouseX - 30;
-    circle.circleHeight = mouseY - 50;
+    circle.Width = mouseX - 30;
+    circle.Height = mouseY - 50;
+
+    circleColor.r = map(mouseX, 0, 600, 0, 255);
+    circleColor.b = map(mouseY, 0, 400, 255, 0);
+
     // The position of the ellipse will be the same coordinates of the mouse, both on the x-axis and the y-axis.
     fill(circleColor.r, circleColor.g, circleColor.b);
-    ellipse(mouseX, mouseY, circleWidth, circleHeight);
+    ellipse(mouseX, mouseY, circle.Width, circle.Height);
 }
 
 // This function works as an event.
