@@ -1,5 +1,6 @@
 var x = 300;
 var y = 200;
+let r, b;
 let extraCanvas;
 
 function setup(){
@@ -14,9 +15,11 @@ function draw(){
     x += random(-3, 3);
     y += random(-3, 3);
 
+    b = map(mouseX, 0, 600, 0, 255);
+    r = map(mouseY, 0, 400, 255, 0);
     image(extraCanvas, 0, 0);
     extraCanvas.noStroke();
-    extraCanvas.fill(180, 210, mouseX);
+    extraCanvas.fill(r, 210, b);
     extraCanvas.ellipse(mouseX, mouseY, 20, 20);
 
     fill(230, 90, 210);
