@@ -26,5 +26,14 @@ function draw(){
 }
 
 function mousePressed(){
-    extraCanvas.background(20);
+    extraCanvas.background(180, 220, 255);
+    extraCanvas.fill(255);
+    extraCanvas.ellipse(400, 100, 300, 50);
+    extraCanvas.ellipse(270, 85, 40, 40);
+    extraCanvas.ellipse(300, 80, 50, 50);
+    extraCanvas.ellipse(350, 70, 70, 70);
+    extraCanvas.ellipse(400, 80, 80, 70);
+    extraCanvas.ellipse(460, 80, 80, 60);
+    extraCanvas.ellipse(510, 90, 70, 50);
+    
 }
