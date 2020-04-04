@@ -41,3 +41,26 @@ Just for the record, I innitiated this course during the Covid-19 quarantine and
 * Boolean Variables
 * while and for Loops
 * Nested Loops
+
+### Reusability
+* Function Basics
+* Function Parameters and Arguments
+* Functions and Return
+
+### Object-Oriented Programming
+* Introduction to Object-Oriented Programming with ES6
+* Classes in JavaScript with ES6
+* Constructor Arguments with Classes in JavaScript
+* Adding JavaScript Files
+
+### Repition and Publication
+* What is an Array?
+* Arrays and Loops
+* Arrays of Objects
+* for... of loop
+* Mouse interaction with Objects
+* Removing Objects from Arrays
+* Object Communication Part1
+* Object Communication Part2
+* Uploading Media Files
+* Objects and Images
