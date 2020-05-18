@@ -12,13 +12,13 @@ The course is divided into seven sections, which are:
 
 (The Introduction section will be ignored, since its content is only for setup)
 
-
-I named each file based on the section name and commited with the name of the video in question.
-Every code must be commented.
-For each section, there will be a project synthesizing all the lessons. The projects will be numbered from 1 to 5.
+I first started creating files with the name of the section and a code similar to the one Daniel uses for explanation/demonstration on the videos. I'm not doing that anymore, because some section counts with several examples/demonstration and it kind of distracts me (coding and watching at the same time is a habit I don't want to stick to). Also I want to come up with my own ideas on what to do with that subject learned.
 
 
-Just for the record, I innitiated this course during the Covid-19 quarantine and intend to finish all of it in 7~10 days (from March 27th to April 5th tops).
+Note to future self:
+I'm doing this during the quarantine. 
+Restarting from middle section 3 at may 17th and want to finish the whole playlist at june 17th.
+Don't want to rush 'cause I'm doing lots of stuff and wanna have a solid learning.
 
 ### Drawing 
 * Shapes and Drawing
@@ -40,7 +40,7 @@ Just for the record, I innitiated this course during the Covid-19 quarantine and
 * Else and Else if, AND and OR
 * Boolean Variables
 * while and for Loops
-* Nested Loops
+* Nested Loops <- may 17th
 
 ### Reusability
 * Function Basics
