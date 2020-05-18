@@ -1,6 +1,8 @@
+// This project was made after second section of the course: Animation.
+// Improved it after section 3, with booleans variables - check project4.
+
 let extraCanvas;
 let x, y;
-let lightness;
 
 function setup(){
     createCanvas(600, 400);
