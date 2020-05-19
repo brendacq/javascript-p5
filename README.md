@@ -40,7 +40,7 @@ Don't want to rush 'cause I'm doing lots of stuff and wanna have a solid learnin
 * Else and Else if, AND and OR
 * Boolean Variables
 * while and for Loops
-* Nested Loops <- may 17th
+* Nested Loops <- may 18th
 
 ### Reusability
 * Function Basics
