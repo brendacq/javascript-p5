@@ -1,3 +1,6 @@
+// This project is an improvement of project 2.
+// It starts with the night sky and then, as the mouse is pressed, it changes to a blue sky.
+
 let extraCanvas;
 let x, y;
 
