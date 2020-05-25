@@ -12,8 +12,8 @@ class Bubble{
     }
 
     move(){
-        this.x = this.x + random(-2, 2);
-        this.y = this.y + random(-2, 2);
+        this.x += random(-2, 2);
+        this.y += random(-2, 2);
     }
 
 }
