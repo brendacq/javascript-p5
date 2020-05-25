@@ -19,9 +19,11 @@ function setup(){
 function draw(){
     background(0);    
 
-    // Maybe there's an infinite loop in here. Gotta check
     for(var i=0; i<10; i++){
-        bubble[i].display();
+        bubble[i].display();        
+    }
+    
+    for(var i=0; i<10; i++){
         bubble[i].move();
     }
 }
