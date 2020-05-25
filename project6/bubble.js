@@ -4,9 +4,9 @@ class Bubble{
         this.y = random(height);
     }
 
-    display(r){
+    display(){
         strokeWeight(2);
-        stroke(r, 44, 100);
+        stroke(213, 44, 100);
         noFill();
         ellipse(this.x, this.y, 30, 30);
     }
