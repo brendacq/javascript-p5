@@ -45,7 +45,6 @@ function draw(){
         extraCanvas.ellipse(460, 80, 80, 60);
         extraCanvas.ellipse(510, 90, 70, 50);
     }
-
 }
 
 function mousePressed(){
