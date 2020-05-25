@@ -51,7 +51,7 @@ Don't want to rush 'cause I'm doing lots of stuff and wanna have a solid learnin
 * Introduction to Object-Oriented Programming with ES6
 * Classes in JavaScript with ES6
 * Constructor Arguments with Classes in JavaScript
-* Adding JavaScript Files <-- may 20th
+* Adding JavaScript Files <--- may 20th
 
 ### Repition and Publication
 * What is an Array?
