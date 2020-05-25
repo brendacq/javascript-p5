@@ -6,23 +6,22 @@
     (still using tbh) to visualize the changes I make right on vscode.
 */
 
-var bubble1;
-var bubble2;
-var r1;
-var r2;
+var bubble = [];
 
 function setup(){
     createCanvas(600, 400);
-    bubble1 = new Bubble();
-    bubble2 = new Bubble();
-    r1 = random(255);
-    r2 = random(255);
+    
+    for (var i=0; i<10; i++){
+        bubble[i] = new Bubble();
+    }
 }
 
 function draw(){
     background(0);    
-    bubble1.display(r1);
-    bubble1.move();
-    bubble2.display(r2);
-    bubble2.move();
+
+    // Maybe there's an infinite loop in here. Gotta check
+    for(var i=0; i<10; i++){
+        bubble[i].display();
+        bubble[i].move();
+    }
 }
