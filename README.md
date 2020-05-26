@@ -12,12 +12,12 @@ The course is divided into seven sections, which are:
 
 (The Introduction section will be ignored, since its content is only for setup)
 
-I first started creating files with the name of the section and a code similar to the one Daniel uses for explanation/demonstration on the videos. I'm not doing that anymore, because some section counts with several examples/demonstration and it kind of distracts me (coding and watching at the same time is a habit I don't want to stick to). Also I want to come up with my own ideas on what to do with the subject learned.
+I first started creating files with the name of the section and a code similar to the one Daniel uses for explanation/demonstration in the videos. I'm not doing that anymore, because some sections count with several examples/demonstration and it kind of distracts me (coding and watching at the same time is a habit I don't want to stick to). Also I want to come up with my own ideas on what to do with the subject learned.
 
 
 Note to future self:
 I'm doing this during the quarantine. 
-Restarting from middle section 3 at may 17th and want to finish the whole playlist at june 17th.
+Restarting from middle section 3 at may 17th and want to finish the whole playlist at june 2th.
 Don't want to rush 'cause I'm doing lots of stuff and wanna have a solid learning.
 
 ### Drawing 
