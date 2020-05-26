@@ -51,13 +51,13 @@ Don't want to rush 'cause I'm doing lots of stuff and wanna have a solid learnin
 * Introduction to Object-Oriented Programming with ES6
 * Classes in JavaScript with ES6
 * Constructor Arguments with Classes in JavaScript
-* Adding JavaScript Files <--- may 20th
+* Adding JavaScript Files
 
 ### Repition and Publication
 * What is an Array?
 * Arrays and Loops
 * Arrays of Objects
-* for... of loop
+* for... of loop <--- may 25th
 * Mouse interaction with Objects
 * Removing Objects from Arrays
 * Object Communication Part1
