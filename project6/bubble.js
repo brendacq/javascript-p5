@@ -1,14 +1,17 @@
 class Bubble{
     constructor(){
-        this.x = random(width);
-        this.y = random(height);
+        this.x = mouseX;
+        this.y = mouseY;
+        this.r = random(10, 50);
+        this.redColor = random(255);
+        this.greenColor = random(255);
     }
 
     display(){
         strokeWeight(2);
-        stroke(213, 44, 100);
+        stroke(this.redColor, this.greenColor, 100);
         noFill();
-        ellipse(this.x, this.y, 30, 30);
+        ellipse(this.x, this.y, this.r, this.r);
     }
 
     move(){
