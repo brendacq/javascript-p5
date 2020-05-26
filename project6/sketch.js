@@ -8,22 +8,21 @@
 
 var bubble = [];
 
-function setup(){
+function setup() {
     createCanvas(600, 400);
-    
-    for (var i=0; i<10; i++){
-        bubble[i] = new Bubble();
+}
+
+function draw() {
+    background(0);
+
+    for (var i = 0; i < bubble.length; i++) {
+        bubble[i].display();
+        bubble[i].move();
     }
 }
 
-function draw(){
-    background(0);    
-
-    for(var i=0; i<10; i++){
-        bubble[i].display();        
-    }
-    
-    for(var i=0; i<10; i++){
-        bubble[i].move(); 
-    }
+// Changing the code based on an example where the object is drawn according to an event (mouse pressed)
+function mousePressed() {
+    var _bubble = new Bubble();
+    bubble.push(_bubble);
 }
