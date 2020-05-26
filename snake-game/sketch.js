@@ -49,12 +49,12 @@ class Snake {
 
     isDead(){
         if(this.x <= 8 || this.x >= 592){
-            textSize(100);
+            textSize(32);
             text("IS DEAD", 200, 200);
         }
 
         if(this.y <= 8 || this.y >= 392){
-            textSize(100);
+            textSize(32);
             text("IS DEAD", 200, 200);
         }
     }
